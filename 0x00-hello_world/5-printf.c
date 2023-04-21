@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main -  A c program to display a line of thought, followed by a new line
  *
