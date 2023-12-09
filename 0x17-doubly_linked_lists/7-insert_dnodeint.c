@@ -11,7 +11,7 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n);
 dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 {
 	struct dlistint_s *new_node, *current_node;
-	size_t count;
+	unsigned int count;
 
 	if (*h == NULL)
 	{
